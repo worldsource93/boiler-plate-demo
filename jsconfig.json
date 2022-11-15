@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "checkJs": false,
+      "resolveJsonModule": true,
+      "moduleResolution": "node",
+      "target": "es2020",
+      "module": "es2015",
+      "baseUrl": ".",
+      "paths": {
+        /* 경로 별칭을 사용하는 경우 아래 주석을 해제하여 적절히 사용한다 */
+        // "@components/*": ["./src/components/*"]
+      }
+    },
+    "exclude": [
+      "dist",
+      "node_modules",
+      "build",
+      ".vscode",
+      ".nuxt",
+      "coverage",
+      "jspm_packages",
+      "tmp",
+      "temp",
+      "bower_components",
+      ".npm",
+      ".yarn"
+    ],
+    "typeAcquisition": {
+      "enable": true
+    }
+  }

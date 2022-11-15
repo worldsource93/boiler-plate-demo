@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li::marker {
+  display: none;
+}
+
+.sr-only {
+  opacity: 0;
+}
